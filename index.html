@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Golf Code</h1>
+    <div class="header">
+        <p class="content">In the game of golf, each hole has a par, meaning, the average number of strokes a golfer is expected to make in order to sink the ball in the hole to complete the play. Depending on how far above or 
+            below par your strokes are, there are 7 different nickname. <strong>Note: Par is already given!</strong></p>
+        <div class="tble">
+            <div class="frm">
+                <p>Input Stroke:</p>
+                <input id="myInput" type="text" name="stroke">
+                <img src="img/animatedgolf.gif" alt="">
+                <h2 id="golf"></h2>
+            </div>
+                <button id="bttn" onclick="golfGame()">Stroke</button>
+                <button id="btn" onclick="clearGame()">Clear</button>
+        </div>
+    </div>
+    <script src="golf.js"></script>
+</body>
+</html>
